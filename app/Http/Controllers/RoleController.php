@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Spattie\Permission\Model\Role;
-use Spattie\Permission\Model\Permission;
+use Spatie\Permission\Model\Role;
+use Spatie\Permission\Model\Permission;
 use DB;
 
 class RoleController extends Controller
